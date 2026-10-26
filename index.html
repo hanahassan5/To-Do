@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TO DO</title>
+
+    <!-- tailwind -->
+    <script src="js/browser@4.js"></script>
+</head>
+
+<body>
+
+     <!-- start colors section -->
+    <section id="colors" class="px-2 py-2">
+
+        <h1 id="demo" class="text-4xl mb-2">Lorem ipsum dolor sit amet.</h1>
+
+        <button data-color="red" data-location="left"
+            class="border border-gray-400 bg-gray-100 px-2 py-1">color1</button>
+        <button data-color="green" data-location="center"
+            class="border border-gray-400 bg-gray-100 px-2 py-1">color2</button>
+        <button data-color="blue" data-location="right"
+            class="border border-gray-400 bg-gray-100 px-2 py-1">color3</button>
+
+    </section>
+    <!-- end colors section -->
+
+
+    <!-- start todo section -->
+    <section class="max-w-5xl mx-auto px-6 mt-16">
+
+        <h2 class="text-center text-3xl font-semibold mb-6">To Do List</h2>
+
+        <form id="myForm">
+
+            <input id="works" type="text" placeholder="Enter Your Works"
+                class="w-full border border-gray-200 rounded-lg px-4 py-3 mb-5">
+
+            <button type="submit" class="w-full bg-violet-600 hover:bg-violet-700 text-white rounded-lg py-3">
+                Enter
+            </button>
+
+        </form>
+
+        <ul id="result" class="mt-6"></ul>
+
+    </section>
+    <!-- end todo section -->
+
+    <script src="js/main.js"></script>
+
+</body>
+
+</html>
